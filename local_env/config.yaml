@@ -1,0 +1,11 @@
+
+path: "/home/sage/Projects/Object Detection/Yolo v8/data"     # data root directory
+train: "train/images"        # train images (relative to 'path')
+val: "val/images"       # validation images (relative to 'path')             
+
+# Classes
+names:
+  0: cheetah 
+# 1: <class2-name>
+# 2: <class3-name>
+# 3: <class4-name>
