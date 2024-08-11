@@ -8,7 +8,7 @@ If you want to train YOLO v8 on [Open Images v6 Dataset](https://storage.googlea
 4. Note the labelname of selected classes.
 5. Download and execute **create_image_list_file.py** with appropriate class IDs.
 6. Execute **create_dataset_yolo_format.py**
-7. Download the [downloader_modified.py](https://raw.githubusercontent.com/openimages/dataset/master/downloader.py) file and execute as :
+7. Download the [downloader_modified.py](https://raw.githubusercontent.com/raoashish2309/Object-Detection/main/util/downloader_modified.py) file and execute as :
 
        python3 downloader_modified.py $IMAGE_LIST_FILE 
 
