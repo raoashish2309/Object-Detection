@@ -10,15 +10,16 @@ If you want to train YOLO v8 on [Open Images v6 Dataset](https://storage.googlea
 6. Execute **create_dataset_yolo_format.py**
 7. Download the [downloader_modified.py](https://raw.githubusercontent.com/openimages/dataset/master/downloader.py) file and execute as :
 
-    python3 downloader_modified.py $IMAGE_LIST_FILE 
+       python3 downloader_modified.py $IMAGE_LIST_FILE 
 
 8. Download **config.yaml** file and configure it.
 9. Execute **setup.py** to organize utilities and create subfolders for I/O.
 10. To train YOLO v8 model on the system execute **train.py** and use **predict.py** as :
 
-    python3 predict.py --mode="image" --infilepath="input/filename.jpeg"      or
-    python3 predict.py --mode="video" --infilepath="input/filename.mp4" --outfilepath=$DESTINATION_FOLDER
+        python3 predict.py --mode="image" --infilepath="input/filename.jpeg"
 
-11. To train YOLO v8 model on google colab upload project folder with data, input, and ouput subfolders.
-12. Reconfigure **config.yaml** as shown in **g_config.yaml**.
-13. Run **g_train.ipynb** file with appropriate runtime type.
+        python3 predict.py --mode="video" --infilepath="input/filename.mp4" --outfilepath=$DESTINATION_FOLDER
+
+12. To train YOLO v8 model on google colab upload project folder with data, input, and ouput subfolders.
+13. Reconfigure **config.yaml** as shown in **g_config.yaml**.
+14. Run **g_train.ipynb** file with appropriate runtime type.
